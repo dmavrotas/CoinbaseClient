@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "coinbase-client"
+version = "0.0.1"
+description = "A Coinbase client in Python"
+authors = ["Dionysios Mavrotas <dmavrotas@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.23.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
